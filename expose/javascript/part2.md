@@ -20,5 +20,5 @@
     d. This will be 3null
 14. Comparison
     a.
-15. == compares two variables no matter the type while === compares two variables but checks the types.
+15. == compares two variables no matter the type while === compares two variables but checks the types
 16. 
