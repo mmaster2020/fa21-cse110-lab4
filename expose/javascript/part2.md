@@ -21,4 +21,5 @@
 14. Comparison
     a.
 15. == compares two variables no matter the type while === compares two variables but checks the types
-16. 
+16. check part2-question16.js file
+17. 
