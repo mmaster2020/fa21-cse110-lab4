@@ -12,14 +12,29 @@
 12. a. student.name
     b. student['Grad Year']
     c. student.greeting();
-    d.
-    e. 
+    d. student['Favorite Teacher'].name
+    e. student.courseLoad[0]
 13. a. This will be 32 because it will  be a string 3 and then adding a 2 next to it making it 32.
-    b. This will be 1
-    c. This will be 3
-    d. This will be 3null
+    b. This will be 1. This is because the string 3 will be converted to a number 3 and then when we subtract that with 2 it will equal to 1.
+    c. This will be 3. Null in this case will be worth 0 and 3+0 is equal to 3.
+    d. This will be 3null. This is because null is corecred to a string when the + operator is applied. 
+    e. This will be 4. This is because true converts to 1 as a number and 1 +3 is equal to 4.
+    f. This will be 0. This will be 0 becuase both false and null will be worth 0 and it will equal to 0.
+    g. This will be 3undefined.
+    h. This will be NaN.
 14. Comparison
-    a.
+    a. This will be true. This is true because the '2' will be converted to a number making it 2. 2>1 which is true because 2 is greater than 1.
+    b. This will be false. This is because they are strings they will be compared lexicographically. Each characted is compared one at a time.
+    c. This will be true. This is because the string will be converted to a number making '2' to 2 and it will equal to 2 making it true.
+    d. This will be false. This is because both are not the same type. 
+    e. This will be false. This is because javascript converts 2 to 1 and when we compare 2==1 it will not be equal.
+    f. This will be true. This is becaase because Boolean(2) is basically true and when we compare it to true it is the same therefore the answer will be true.
 15. == compares two variables no matter the type while === compares two variables but checks the types
 16. check part2-question16.js file
-17. 
+17. This creates a new array by applying the callback function to each eleement in teh array. doSomething is the callback in this caass. So teh goal for this is to double each element in the array. So this [1,2,3] will return [2,4,6]
+18. check part2-question18.js
+19. This will print out:
+    1
+    4
+    3
+    2
